@@ -11,8 +11,10 @@ add them as a collaborator in your git repo
 if you use `git pull`, you will have an error where git refuses to merge two different histories
 
 so you must first do `git fetch`; using `git merge` after will still give you an error
-        `git fetch` = grabbing from the internet
-        `git merge` = merging the files in your computer with the one grabbed from the internet
+
+`git fetch` = grabbing from the internet
+
+`git merge` = merging the files in your computer with the one grabbed from the internet
 
 you must do something in between to allow the two different histories to be forcefully merged
 
