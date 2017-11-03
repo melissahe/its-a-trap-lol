@@ -29,4 +29,4 @@ you must do something in between to allow the two different histories to be forc
 
 6. now you can git push
 
-good thing Melissa Wrote all of this down :)
+good thing Melissa wrote all of this down :)
