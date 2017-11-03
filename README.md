@@ -28,3 +28,5 @@ you must do something in between to allow the two different histories to be forc
 5. then git add to stage it, and git commit it with a message
 
 6. now you can git push
+
+good thing Melissa Wrote all of this down :)
