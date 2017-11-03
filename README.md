@@ -21,14 +21,12 @@ you must do something in between to allow the two different histories to be forc
 1. you must add:
         `git merge --allow-unrelated-histories`
 
-2. then put a commit message for why you want to merge the two
+2. (if it asks, otherwise skip to step 3) then put a commit message for why you want to merge the two
 
-3. then edit the file that you want to merge using the vi editior (like `vi <name of file>`)
+3. then edit the file that you want to merge using the vi editior (like `vi <name of file>`) if it's a simple readme.md file, or if it's a swift file, open the file in Xcode and edit the code there
 
 4. delete the `>>> HEAD` part (all of the `>`) and the `< <and some weird code like c77sdjgj4mms00sqm5n8aedcxb, etc.>` part too; combine the changes in the way you want so the file works; also delete the `======` parts too
 
-5. then git add to stage it, and git commit it with a message
+5. then `git add` to stage it, and `git commit` it with a message
 
-6. now you can git push
-
-good thing Melissa wrote all of this down :)
+6. now you can `git push`
