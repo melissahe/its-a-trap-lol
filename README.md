@@ -23,7 +23,8 @@ you must do something in between to allow the two different histories to be forc
 
 3. then edit the file that you want to merge using the vi editior (like "vi <name of file>")
 
-4. delete the ">>> HEAD" part (all of the ">") and the "< <and some words>" part too; combine the changes in the way you want so the file worksall
+4. delete the ">>> HEAD" part (all of the ">") and the "< <and some words>" part too; combine the changes in the way you want so the file works; also delete the "=" parts too
+
 5. then git add to stage it, and git commit it with a message
 
 6. now you can git push
